@@ -1,1 +1,1 @@
-/home/jdobson/code/massgravel.ps1
+irm https://massgrave.dev/get | iex
