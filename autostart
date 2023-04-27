@@ -1,0 +1,10 @@
+sleep 5
+chromium \
+    --no-first-run \
+    --disable \
+    --disable-translate \
+    --disable-infobars \
+    --disable-suggestions-service \
+    --disable-save-password-bubble \
+    --start-maximized \
+    --kiosk "http://10.7.192.200:81/ui3.htm?user=kamviewer&pw=Angelina2023&timeout=0&maximize=1&group=Index&streamingprofile=1440p%5E" &
